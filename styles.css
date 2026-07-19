@@ -1,0 +1,218 @@
+
+
+
+.nav-section-parent{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+
+
+
+
+}
+.nav-section-middle{
+display:flex;
+justify-content:space-between;
+gap:20px;
+list-style: none;
+color:#575757;
+weight:500px;
+
+}
+.common-button button{
+background-color: #1D4ED8;
+color:#FFFFFF;
+border:none;
+width:188px;
+height:48px;
+border-radius: 10px;
+padding:12px;
+gap:12px;
+font-size:16px;
+cursor:pointer;
+
+}
+
+/* navbar section css end */
+
+
+
+.banner-section{
+    height:700px;
+    width:100%;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("./B14-A01-DevConf-2026/assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+    
+} 
+
+.banner-section .banner-section-content h1{
+text-align: center;
+color:#FFFFFF;
+margin-top: 100px;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 80px;
+line-height: 80px;
+letter-spacing: -3.2px;
+
+}
+.banner-section .banner-section-content p{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -50px;
+}
+.banner-section-content .common-button{
+ align-items:center;
+ display:flex;
+ justify-content: center;
+ margin-top:300px;
+ margin-bottom:-20px;
+
+}
+/* banner section css end */
+
+.speaker-section{
+    max-width:1200px;
+    margin:auto;
+    align-items: center;
+
+}
+.speaker-section h2{
+    align-items: center;
+    text-align: center;
+    color:#000102;
+    font-size: 56px;
+    font-weight:700;
+
+}
+.speaker-information{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin:20px 0;
+    align-items: center;
+    
+}
+.speaker{
+border:1px solid whitesmoke;
+border-radius:2px;
+padding:20px;
+
+
+}
+.speaker img{
+    width:100%;
+    display:block;
+    margin-bottom:20px;
+}
+.category{
+    color:#2563EB;
+    font-weight:600;
+    font-size: 12px;
+    font-style:700;
+
+
+}
+.speaker-information .speaker h4{
+    color:#0D1B2A;
+    font-size:20px;
+    font-weight: 700;
+    font-style: normal;
+}
+.designation{
+    color:#575757;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* speaker section css end */
+
+.card-section{
+ max-width:1200px;
+ margin:auto;
+ gap:20px;
+
+}
+.secure-heading{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color:#0D1B2A;
+    font-size: 48px;
+    font-weight:700;
+    line-height: 60px;
+}
+.bard-price{
+display:flex;
+justify-content: center;
+text-align: center;
+color:#575757;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-top:-30px;
+}
+.card-section .whole-card-section{
+border:2px solid wheat;
+border-radius: 5px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+padding:10px;
+gap:20px;
+
+}
+.card-standard{
+    background-color:#FFFFFF;
+    border:1px solid #E5E7EB;
+    gap:10px;
+    padding:32px;
+}
+.quality{
+color:#888888;
+font-size: 13px;
+font-weight: 600;
+}
+.price{
+color:#0D1B2A;
+font-size:44px;
+font-weight:700;
+
+}
+.person{
+    color:#888888;
+    font-size:13px;
+    font-weight:400;
+    
+}
+.list{
+color:#333333;
+font-size: 14px;
+
+}
+.button button{
+
+border:1px solid #2563EB;
+height:100%;
+width:100%;
+padding-top:11px;
+padding-bottom:11px;
+border-radius: 8px;
+
+}
+.card-team{
+
+    background-color:#F8F9FB;
+    border:1px solid #E5E7EB;
+    gap:10px;
+    padding:32px;
+}
