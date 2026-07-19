@@ -43,7 +43,7 @@ cursor:pointer;
     width:100%;
     background-image:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("./B14-A01-DevConf-2026/assets/banner.jpg");
+    url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
