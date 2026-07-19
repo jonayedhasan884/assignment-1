@@ -199,7 +199,7 @@ color:#333333;
 font-size: 14px;
 
 }
-.button button{
+.button-1 button{
 
 border:1px solid #2563EB;
 height:100%;
@@ -207,8 +207,10 @@ width:100%;
 padding-top:11px;
 padding-bottom:11px;
 border-radius: 8px;
-
+margin-top: 20px;
+color:#2563EB;
 }
+
 .card-team{
 
     background-color:#F8F9FB;
@@ -216,3 +218,84 @@ border-radius: 8px;
     gap:10px;
     padding:32px;
 }
+.list{
+color:#333333;
+gap:5px;
+margin:5px;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+.button-2 button{
+
+    border:1px solid #2563EB;
+    height:100%;
+    width:100%;
+    padding-top:11px;
+    padding-bottom:11px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+    }
+
+ .card-pro{
+border:1px solid #0D1B2A;
+background-color:#0D1B2A;
+border-radius: 12px;
+padding:32px;
+
+
+ } 
+ .quality-pro{
+color:#93C5FD;
+font-size: 13px;
+font-weight: 600;
+line-height: 19.5px;
+letter-spacing: 0.32px;
+
+ } 
+ .price-pro{
+    color:#FFFFFF;
+    font-size:44px;
+font-weight:700;
+line-height:44px;
+letter-spacing:0px;
+
+
+ } 
+ .person-pro{
+    color:#FFFFFF80;
+    font-size:13px;
+font-weight:400;
+line-height:19.5px;
+
+ }
+ .list-card{
+color:#FFFFFFCC;
+font-weight:400;
+font-size:14px;
+line-height: 21px;
+
+
+ }
+ .pro-button button{
+    border:1px solid #2563EB;
+    background-color: #2563EB;
+    height:100%;
+    width:100%;
+    padding-top:11px;
+    padding-bottom:11px;
+    border-radius: 8px;
+    margin-top: 20px; 
+color:#FFFFFF;
+
+ }
